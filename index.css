@@ -1,0 +1,59 @@
+body {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+#myID {
+  min-width: 300px;
+  max-width: 600px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+button {
+  font-size: 5.8rem;
+  margin: 0 20px;
+  align-items: center;
+  border: none;
+  border-radius: 50%;
+  text-align: center;
+  background-color: hsl(240, 100%, 70%);
+  cursor: pointer;
+  transition: all 0.8s ease;
+}
+
+button:hover {
+  background-color: aqua;
+}
+
+#playerDisplay,
+#computerDisplay {
+  font-size: 3rem;
+  color: rgb(216, 128, 21);
+  margin-bottom: 12px;
+}
+
+#computerDisplay {
+  margin-top: 24px;
+}
+
+#result {
+  font-size: 3.5rem;
+  text-align: center;
+}
+
+#Playerresult,
+#Computerresult {
+  font-size: 2.8rem;
+}
+
+.green {
+  color: rgb(23, 193, 23);
+}
+
+.black {
+  color: aquamarine;
+}
